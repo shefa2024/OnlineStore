@@ -1,0 +1,3 @@
+@model IEnumerable<CartItem>
+<h1>Количка</h1>
+@foreach(var item in Model) { <p>Продукт ID: @item.ProductId – Количество: @item.Quantity</p> }

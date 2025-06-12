@@ -1,0 +1,3 @@
+@model IEnumerable<Product>
+<h1>Всички продукти</h1>
+@foreach(var p in Model) { <a asp-action="Details" asp-route-id="@p.Id">@p.Name</a><br/> }

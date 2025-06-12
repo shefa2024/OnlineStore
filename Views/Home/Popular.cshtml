@@ -1,0 +1,3 @@
+@model IEnumerable<Product>
+<h1>Най-популярни продукти</h1>
+@foreach(var p in Model) { <p>@p.Name – Рейтинг: @p.Rating</p> }

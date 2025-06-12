@@ -1,0 +1,3 @@
+﻿@model IEnumerable<Product>
+<h1>Начална страница</h1>
+@foreach(var p in Model) { <p>@p.Name – @p.Price лв.</p> }
